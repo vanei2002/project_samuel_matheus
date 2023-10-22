@@ -1,0 +1,29 @@
+<main>
+  <nav class="navbar">
+    <div class="boximg"><img src="../assets/stackx.png"/></div>
+  </nav >
+
+  <div class="container">
+    
+    <div class="containertext">
+      <p>
+        {{text}}
+      </p>
+    </div>
+
+    <ul class="list">
+      <li *ngFor="let text of tecnologias ">
+        {{text}}
+      </li>
+
+    </ul>
+
+    <div class="button">
+      <app-button-page  [buttons]="button" ></app-button-page>
+    </div>
+  </div>
+
+</main>
+
+
+

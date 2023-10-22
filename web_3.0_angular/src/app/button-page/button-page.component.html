@@ -1,0 +1,7 @@
+
+<div id="container">
+    <div *ngFor="let btn of buttons" (click)="btn.function()">
+        <img src={{btn.icons}}/>
+        <button  >{{ btn.text }}</button>
+    </div>
+</div>
